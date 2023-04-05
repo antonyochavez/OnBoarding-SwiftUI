@@ -2,13 +2,11 @@
 ...😉😀😁😎
 
 ## Gif
-
 <img src="https://github.com/antonyochavez/OnBoarding-SwiftUI/blob/main/Screenshots/Screens.gif" height="300" width="150">
-<br/>
 
 ## Screenshots
+**Por favor, haga clic en la imagen para ampliar.**
 
-**Por favor, haga clic en la imagen de abajo para ampliar.**
 <img src="https://github.com/antonyochavez/OnBoarding-SwiftUI/blob/main/Screenshots/Screenshot_1.png" height="300" width="150" hspace="40">
 <br/>
 <img src="https://github.com/antonyochavez/OnBoarding-SwiftUI/blob/main/Screenshots/Screenshot_2.png" height="300" width="150" hspace="40">

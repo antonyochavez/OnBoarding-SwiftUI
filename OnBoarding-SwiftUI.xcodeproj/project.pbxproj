@@ -11,6 +11,10 @@
 		3D13F5ED29DE003500CB75B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F5EC29DE003500CB75B2 /* ContentView.swift */; };
 		3D13F5EF29DE003700CB75B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D13F5EE29DE003700CB75B2 /* Assets.xcassets */; };
 		3D13F5F229DE003700CB75B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D13F5F129DE003700CB75B2 /* Preview Assets.xcassets */; };
+		3D13F5FB29DE009A00CB75B2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F5FA29DE009A00CB75B2 /* Home.swift */; };
+		3D13F5FD29DE00AE00CB75B2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F5FC29DE00AE00CB75B2 /* CustomTextField.swift */; };
+		3D13F5FF29DE00C200CB75B2 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F5FE29DE00C200CB75B2 /* CustomIndicatorView.swift */; };
+		3D13F60129DE00D900CB75B2 /* PageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13F60029DE00D900CB75B2 /* PageIntro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3D13F5EC29DE003500CB75B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D13F5EE29DE003700CB75B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D13F5F129DE003700CB75B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D13F5FA29DE009A00CB75B2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3D13F5FC29DE00AE00CB75B2 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3D13F5FE29DE00C200CB75B2 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
+		3D13F60029DE00D900CB75B2 /* PageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIntro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		3D13F5E929DE003500CB75B2 /* OnBoarding-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3D13F5F929DE008E00CB75B2 /* View */,
+				3D13F5F829DE008A00CB75B2 /* Model */,
 				3D13F5EA29DE003500CB75B2 /* OnBoarding_SwiftUIApp.swift */,
 				3D13F5EC29DE003500CB75B2 /* ContentView.swift */,
 				3D13F5EE29DE003700CB75B2 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				3D13F5F129DE003700CB75B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D13F5F829DE008A00CB75B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D13F60029DE00D900CB75B2 /* PageIntro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D13F5F929DE008E00CB75B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D13F5FA29DE009A00CB75B2 /* Home.swift */,
+				3D13F5FC29DE00AE00CB75B2 /* CustomTextField.swift */,
+				3D13F5FE29DE00C200CB75B2 /* CustomIndicatorView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D13F5FD29DE00AE00CB75B2 /* CustomTextField.swift in Sources */,
 				3D13F5ED29DE003500CB75B2 /* ContentView.swift in Sources */,
+				3D13F5FF29DE00C200CB75B2 /* CustomIndicatorView.swift in Sources */,
+				3D13F5FB29DE009A00CB75B2 /* Home.swift in Sources */,
 				3D13F5EB29DE003500CB75B2 /* OnBoarding_SwiftUIApp.swift in Sources */,
+				3D13F60129DE00D900CB75B2 /* PageIntro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
